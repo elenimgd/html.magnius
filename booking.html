@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnius-Boutique</title>
+    <link rel="stylesheet" href="main.css" />
+
+<style>
+
+    form#contact {
+        padding: 0rem 1rem;
+        width: 450px;
+        
+    }
+
+    form#contact input{
+        padding:0.5rem;
+        display: block;
+        border: solid thin lightgray;
+        margin-bottom: .7rem;
+        width: 100%;
+    
+    }
+
+    form#contact input:focus{
+        outline: solid thin var(--primaryColor);;
+    }
+
+    form#contact textarea:focus{
+        outline: solid thin var(--primaryColor);
+    }
+
+    form#contact textarea{
+        padding:0.5rem;
+        display: block;
+        border: solid thin lightgray;
+        margin-bottom: .9rem;
+        width: 100%;
+    }
+
+
+    form#contact h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        padding-top: 5px;
+    }
+
+    form#contact input#submit{
+        width: max-content;
+        margin: auto;
+        cursor: pointer;
+        color:white;
+        background-color: var(--primaryColor);
+        border-radius: 4px;
+    
+    }
+</style>
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <h1>MAGNIUS</h1>
+            <p class="colored-header">Boutique Hotel</p>
+            <nav>
+                <a href="home.html">HOME</a>
+                <a href="rooms.html">ROOMS</a>
+                <a href="dining.html">DINING</a>
+                <a href="prices.html">PRICES</a>
+                <a class = "active" href="booking.html">BOOKING</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+
+        </header>
+
+        <main>
+            
+            <section class="two-boxes">
+
+                <div>
+                    <h2>MAKE A RESERVATION</h2>
+                    <p class="colored-text">Your requests are reviewed daily</p>
+                    <p>
+                        Click here and start typing. Iste natus error sit voluptatem accusantium doloremque laudantium totam rem.
+                    </p> 
+                    <p>
+                        Natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+                    </p>
+                </div>
+
+                <div>
+                    <form id = "contact">   
+                        <h2>Contact us</h2> 
+                        <input type="text" placeholder="Your full name...">
+                        <input type="email" placeholder="Your e-mail...">
+                        <input type="tel" placeholder="Your phone number...">
+                        <textarea rows ="5" placeholder="What would you like to tell us.."></textarea>
+                        <input id = "submit" type = "submit" value="Submit">
+                       
+                    </form>
+                </div>
+
+            </section> 
+
+           
+        </main>
+
+        <footer>
+            <div>
+                <p>12 Pike St, New York, NY 10002</br>
+                All rights reserved 2023</p>
+            </div>
+
+            <div>
+            <p>Powered by Webnode</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
